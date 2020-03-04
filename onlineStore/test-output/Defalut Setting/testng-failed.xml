@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Defalut Setting]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Verify the default values after login(failed)">
+    <classes>
+      <class name="org.selenium.onlineStore.Login">
+        <methods>
+          <include name="LogIn"/>
+          <include name="DefaultTab"/>
+          <include name="Close"/>
+          <include name="DefaultPlaceHolder"/>
+          <include name="VerifyTitle"/>
+          <include name="DefaultLabel"/>
+          <include name="open_online_store"/>
+        </methods>
+      </class> <!-- org.selenium.onlineStore.Login -->
+    </classes>
+  </test> <!-- Verify the default values after login(failed) -->
+</suite> <!-- Failed suite [Defalut Setting] -->

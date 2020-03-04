@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sales_bill]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="sales_bill_shortcutkeys(failed)">
+    <classes>
+      <class name="org.selenium.onlineStore.Login">
+        <methods>
+          <include name="DefaultTab"/>
+          <include name="Close"/>
+          <include name="open_online_store"/>
+        </methods>
+      </class> <!-- org.selenium.onlineStore.Login -->
+    </classes>
+  </test> <!-- sales_bill_shortcutkeys(failed) -->
+</suite> <!-- Failed suite [sales_bill] -->
